@@ -1,3 +1,12 @@
+//Evitar que recargue la página cuando doy enter
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('input[type=text]').forEach( node => node.addEventListener('keypress', e => {
+      if(e.keyCode == 13) {
+        e.preventDefault();
+      }
+    }))
+  });
+
 const grid = new Muuri(".grid", {
     layout: {
         rounding: false,
@@ -53,4 +62,6 @@ window.addEventListener("load", () => {
     overlay.addEventListener("click", (evento) => {
         evento.target.id === "overlay" ? overlay.classList.remove("activo") : "";
     });
+
+    
 });
