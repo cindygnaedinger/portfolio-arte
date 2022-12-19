@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;600&family=Source+Sans+Pro:wght@400;600;700&family=Space+Grotesk:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/brush.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/overlay.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+
+    <title>My Art Portfolio | Cindy Gnaedinger</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logo">
+                <!---<img src="img/logo.png" alt="logo" width="100px" height="100px">--->
+                <lottie-player src="https://lottie.host/60a9fcd3-2ef1-42dc-8b09-4280bea5824f/o0yy3JalbB.json" background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+                <h1>Cindy Gnaedinger</h1>
+                <p>Visual Artist | Frontend Developer</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Search">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo">All</a>
+                <a href="#">Murals</a>
+                <a href="#">Paintings</a>
+                <a href="#">Sculpture</a>
+                <a href="#">Digital Art</a>
+                <a href="#">Drawings</a>
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+            <div class="item" 
+            data-categoria="paintings" 
+            data-etiquetas="pintura oleo painting oil figura figurativo figurative red pink rojo rosado bath"
+            data-descripcion="brush.beginPath(); | Oil on canvas | 100 x 120 cm | 2022"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="paintings" 
+            data-etiquetas="pintura oleo painting oil figura figurativo figurative"
+            data-descripcion="aullido | Oil on canvas | 60 x 80 cm | 2021"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto2.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="item" 
+            data-categoria="paintings" 
+            data-etiquetas="pintura oleo painting oil landscape paisaje animal gato cat animal"
+            data-descripcion="Untitled | Oil on canvas | 60 x 80 cm | 2021"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto3.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="murals" 
+            data-etiquetas="pintura mural wall painting acrylic figura figurativo figurative"
+            data-descripcion="cuerpo.s y/o impotencia | Acrylic on wall | 80 x 60 cm | 2018"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto4.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="sculpture" 
+            data-etiquetas="escultura sculpture cemento figura figurativo figurative cabeza head"
+            data-descripcion="La musa dormida | Concrete | 19 x 15 x 13 cm | 2022"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto5.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="murals" 
+            data-etiquetas="pintura mural painting wall landscape red pink"
+            data-descripcion="Would you like to remember? | Synthetic paint on wall | 300 x 300 cm | 2022"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto6.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="sculpture" 
+            data-etiquetas="escultura sculpture arcilla clay figura figurativo figurative cabeza head"
+            data-descripcion="Untitled | Clay | 25 x 25 x 20 cm | 2021"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto8.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="sculpture" 
+            data-etiquetas="escultura sculpture arcilla clay figura figurativo figurative cabeza head"
+            data-descripcion="Untitled | Clay | 25 x 25 x 20 cm | 2021"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto7.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="sculpture" 
+            data-etiquetas="escultura sculpture arcilla clay figura figurativo figurative cabeza head"
+            data-descripcion="Untitled | Clay | 25 x 25 x 20 cm | 2021"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto9.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="digital art" 
+            data-etiquetas="arte digital collage landscape paisaje chaco pink rosa"
+            data-descripcion="afuera, el polvo | Digital collage | 711 x 550 px | 2021"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto10.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="digital art" 
+            data-etiquetas="arte digital collage landscape paisaje chaco rojo red azul blue cambio climatico climate change"
+            data-descripcion="todo va bien | Digital collage | 2139 x 2362 px | 2021"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto11.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="paintings" 
+            data-etiquetas="pintura oleo painting oil figura figurativo figurative rosa pink"
+            data-descripcion="que se fueron, se quedaron | Oil on canvas | 60 x 80 cm | 2021"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto12.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="paintings" 
+            data-etiquetas="pintura oleo painting oil figura figurativo figurative bath"
+            data-descripcion="Untitled | Oil on paper | 70 x 50 cm | 2022"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto14.JPG" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="paintings" 
+            data-etiquetas="pintura oleo painting oil figura figurativo figurative"
+            data-descripcion="maría magdalena | Oil on canvas | 80 x 60 cm | 2021"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto15.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="paintings" 
+            data-etiquetas="pintura acrilico painting acrylic figura figurativo figurative rosa pink memoria"
+            data-descripcion="cuerpo.s y/o memoria | Acrylic on paper | 35 x 25 cm | 2021"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto13.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="paintings" 
+            data-etiquetas="pintura oleo painting oil figura figurativo figurative"
+            data-descripcion="Untitled | Oil on canvas | 40 x 40 cm | 2020"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto18.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="drawings" 
+            data-etiquetas="drawing dibujo microfibras ink figura figurativo figurative"
+            data-descripcion="Retrato de Aaron | Microfiber pen drawing | 35 x 25 cm | 2022"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto16.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+            data-categoria="drawings" 
+            data-etiquetas="drawing dibujo charcoal digital carboncilla figura figurativo figurative"
+            data-descripcion="La herida | Charcoal on paper + Digital work | 2998 x 4102 cm | 2021"
+            >
+                <div class="item-contenido">
+                    <img src="img/foto17.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="overlay" id="overlay">
+            <div class="container-img">
+                <button id="btn-cerrar-popup"><i class="uil uil-times-square"></i></button>
+                <img src="" alt="">
+            </div>
+            <p class="descripcion"></p>
+        </section>
+
+        <footer class="container">
+            <div class="redes-sociales">
+
+                <div class="contenedor-icono">
+                    <a href="https://www.linkedin.com/in/cindygnaedinger/" target="_blank" class="linkedin">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+                </div>
+
+                <div class="contenedor-icono">
+                    <a href="https://github.com/cindygnaedinger" target="_blank" class="github">
+                        <i class="uil uil-github"></i>
+                    </a>
+                </div>
+
+                <div class="contenedor-icono">
+                    <a href="https://www.instagram.com/nonetre_/" target="_blank" class="instagram">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="creado-por">
+                <p><i class="uil uil-brush-alt"></i><a href="https://www.linkedin.com/in/cindygnaedinger/" target="_blank"> Cindy Gnaedinger</a> - 2022</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> 
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+ :root {
+ /*----------------COLORS-----------------*/
+
+ --first-color: #eb1e36;
+ --first-color-second: #C21010;
+ --first-color-alt: #FA9494;
+ --first-color-lighter: #FA9494;
+ --title-color: #0e0f20;
+ --text-color: hsl(237, 32%, 13%);
+ --text-color-light: #CFD2CF;
+ --input-color: #F5EDDC;
+ --body-color: #F9F9F9;
+ --container-color: #fff;
+
+ /*----------------FONTS-----------------*/
+ --body-font: 'Space Grotesk', sans-serif;
+ --extra-font: 'Rubik', sans-serif;
+ --title-font: 'Source Sans Pro', sans-serif;
+ --roboto-font: 'Roboto', sans-serif;
+
+ --big-font-size: 2rem;
+ --h1-font-size: 1.5rem;
+ --h2-font-size: 1.25rem;
+ --h3-font-size: 1.125rem;
+ --normal-font-size: .938rem;
+ --small-font-size: .813rem;
+ --smaller-font-size: .75rem;
+
+ --font-medium: 500;
+ --font-semi-bold: 600;
+ }
+ /*----------------BASE-----------------*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--title-color);
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
